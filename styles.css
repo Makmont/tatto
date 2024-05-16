@@ -1,0 +1,97 @@
+/*header style*/
+
+header {
+
+    text-align: center; 
+ 
+    padding: 20px;
+ 
+ }
+ 
+ /*navigation menu style*/
+ 
+ nav {
+ 
+    text-align: center;
+ 
+    word-spacing: 30px;
+ 
+    Padding: 10px;
+ 
+ }
+ 
+ /*creating the two-column layout*/
+ 
+ *{
+ 
+    box-sizing: border-box;
+ 
+ }
+ 
+ .row {
+ 
+    display: flex;
+ 
+    flex-wrap: wrap;
+ 
+ }
+ 
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente de texto para todo el cuerpo */
+    background-color: #0f0707; /* Color de fondo para toda la página */
+}
+
+/* Estilos para los encabezados */
+h1 {
+    color: #f3ecec; /* Color del texto del encabezado h1 */
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 16px; /* Tamaño de fuente para los párrafos */
+    line-height: 1.5; /* Espaciado entre líneas para los párrafos */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #1a7e43; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+}
+
+ .post-text-box {
+ 
+    flex: 70%;
+ 
+    padding: 20px;
+ 
+ }
+ 
+ .profile {
+ 
+    flex: 70%;
+ 
+    padding: 20px;
+ 
+ }
+ 
+ /*profile image and heading style*/
+ 
+ .profile img {
+ 
+    width: 120px;
+ 
+    display: block;
+ 
+    margin-left: 0;
+ 
+    margin-right: 0;
+ 
+ }
+ 
+ .profile h1 {
+ 
+    text-align: center;
+ 
+ }
+
